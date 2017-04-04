@@ -12,7 +12,7 @@ h1{
 header nav a{
   background-color: pink;
   display: inline-block;
-  margin-left: 165px;
+  margin-left: 130px;
 }
 nav{
   background-color: purple;
@@ -25,14 +25,29 @@ section a{
   display: inline-block;
   margin-left: 50px;
 }
-*{
-  border: 1px solid black;
-}
+
 /*code css porduit.html*/
-.section2{
-  border: 150px solid;
-}
+
 p{
   text-align: center;
-  color: skyblue;
+  color: black;
+}
+/*code css pour formulaire.html*/
+
+form p{
+  vertical-align: middle;
+}
+
+input{
+  display: block;
+  margin-left: 550px;
+}
+
+textarea,button {
+  display: block;
+  margin-left: 550px;
+}
+/*code css localisation*/
+iframe{
+  margin-left: 345px;
 }
